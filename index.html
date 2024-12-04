@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-placeholder="title">Dynamische Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <img src="" alt="Logo" class="logo" data-placeholder="logo">
+            <nav class="menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Over Ons</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1 data-placeholder="heroTitle"></h1>
+        <p data-placeholder="heroSubtitle"></p>
+        <a href="#" class="btn btn-primary" data-placeholder="heroCTAUrl" data-placeholder-text="heroCTAText"></a>
+    </section>
+
+    <!-- Content Blocks -->
+    <main>
+        <section class="block">
+            <div class="block-content">
+                <h2 data-placeholder="block1Title"></h2>
+                <p data-placeholder="block1Text"></p>
+                <a href="#" class="btn btn-primary" data-placeholder="block1CTAUrl">Lees meer</a>
+            </div>
+            <div class="block-image">
+                <img src="" alt="Afbeelding blok 1" data-placeholder="block1Image">
+            </div>
+        </section>
+        <section class="block">
+            <div class="block-content">
+                <h2 data-placeholder="block2Title"></h2>
+                <p data-placeholder="block2Text"></p>
+                <a href="#" class="btn btn-primary" data-placeholder="block2CTAUrl">Lees meer</a>
+            </div>
+            <div class="block-image">
+                <img src="" alt="Afbeelding blok 2" data-placeholder="block2Image">
+            </div>
+        </section>
+        <section class="block">
+            <div class="block-content">
+                <h2 data-placeholder="block3Title"></h2>
+                <p data-placeholder="block3Text"></p>
+                <a href="#" class="btn btn-primary" data-placeholder="block3CTAUrl">Lees meer</a>
+            </div>
+            <div class="block-image">
+                <img src="" alt="Afbeelding blok 3" data-placeholder="block3Image">
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <!-- Contactgegevens -->
+        <div class="footer-contact">
+            <div class="contact-item">
+                <img src="../assets/icons/phone-alt.svg" alt="Telefoon" class="contact-icon">
+                <span data-placeholder="phone"></span>
+            </div>
+            <div class="contact-item">
+                <img src="../assets/icons/envelope.svg" alt="E-mail" class="contact-icon">
+                <a href="#" data-placeholder="email"></a>
+            </div>
+            <div class="contact-item">
+                <img src="../assets/icons/map-marker-alt.svg" alt="Adres" class="contact-icon">
+                <span data-placeholder="address"></span>
+            </div>
+        </div>
+
+        <!-- Sociale Media -->
+        <div class="footer-social">
+            <p>&copy; <span data-placeholder="copyright"></span></p>
+            <ul class="social-media" id="socialMediaLinks">
+                <!-- Sociale media-links worden hier dynamisch toegevoegd -->
+            </ul>
+        </div>
+    </div>
+</footer>
+    
+
+
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>
